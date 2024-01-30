@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4a087c17a84e369bcb04f4e4029ce8, type: 3}
+  m_Name: PlateauMapSelection
+  m_EditorClassIdentifier: 
+  selection: 0
+  maps: []
+  criteria:
+    Public: 0
+    Merged: 0
+    GroupKeys: []
+    GpsThreshold: 50
+    TimeThreshold: 1
+    Sorting: 1

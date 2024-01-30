@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853e5f708b0d65244a3883bca8b79522, type: 3}
+  m_Name: PretiaSDKProjectSettings
+  m_EditorClassIdentifier: 
+  _appKey: acde8a86ce90d577b630aeba9ea004c5dee4a88fdba4baad99fce78c0487d14e
+  _apiKey: 7f6f8e7eb74b1b5fda7c4f6e82c77785d3078daa8aa76178db61df9de9566f5f
+  _initializeOnStartup: 1
+  Endpoints: {fileID: 11400000, guid: 6dd8ff3f2ab1c4084a225a4afe4fa9b8, type: 2}
+  SDKVersion: 0.10.1

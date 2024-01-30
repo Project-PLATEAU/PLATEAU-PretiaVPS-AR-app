@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cca748d17b471b96139e560bad197b, type: 3}
+  m_Name: MapCollection
+  m_EditorClassIdentifier: 
+  maps:
+  - name: Check Point 1
+    mapKey: 31801837934141766
+  - name: Check Point 2
+    mapKey: 16760494217225717918
+  - name: Check Point 3
+    mapKey: 14745209720408014873
+  - name: Check Point 4
+    mapKey: 8249200652598310970
+  - name: Check Point 5
+    mapKey: 671303312786667075
+  - name: Check Point 6
+    mapKey: 8699312858640310290
+  - name: Check Point 7
+    mapKey: 15953238373785337723
+  - name: Check Point 8
+    mapKey: 5613798022284581197
+  - name: Check Point 9
+    mapKey: 3910175797705664292
+  - name: Check Point 10
+    mapKey: 2471527327117632719

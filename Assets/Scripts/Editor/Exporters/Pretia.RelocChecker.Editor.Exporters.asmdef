@@ -1,0 +1,18 @@
+{
+    "name": "Pretia.RelocChecker.Editor.Exporters",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bd786a5383ccc05409ebf7e1d118574b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: Pretia-Regular SDF
+  m_EditorClassIdentifier: 
+  hashCode: -29292867
+  material: {fileID: 6852387969424710296}
+  materialHashCode: 721958781
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 29a74af0f98e29145baace3e7ac0f206
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 29a74af0f98e29145baace3e7ac0f206, type: 3}
+  m_SourceFontFile: {fileID: 12800000, guid: a9fdfe7f3c803434a95d1f43c6817b3d, type: 3}
+  m_AtlasPopulationMode: 1
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Source Han Sans
+    m_StyleName: Light
+    m_PointSize: 13
+    m_Scale: 1
+    m_UnitsPerEM: 0
+    m_LineHeight: 18.824
+    m_AscentLine: 15.079999
+    m_CapLine: 10
+    m_MeanLine: 7
+    m_Baseline: 0
+    m_DescentLine: -3.7439997
+    m_SuperscriptOffset: 15.079999
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -3.7439997
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -1.9499999
+    m_UnderlineThickness: 0.65
+    m_StrikethroughOffset: 2.8
+    m_StrikethroughThickness: 0.65
+    m_TabWidth: 3
+  m_GlyphTable:
+  - m_Index: 14
+    m_Metrics:
+      m_Width: 3.203125
+      m_Height: 0.640625
+      m_HorizontalBearingX: 0.578125
+      m_HorizontalBearingY: 3.90625
+      m_HorizontalAdvance: 4.328125
+    m_GlyphRect:
+      m_X: 5
+      m_Y: 3
+      m_Width: 4
+      m_Height: 1
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 64
+    m_Metrics:
+      m_Width: 6.84375
+      m_Height: 0.59375
+      m_HorizontalBearingX: 0.171875
+      m_HorizontalBearingY: -1.125
+      m_HorizontalAdvance: 7.203125
+    m_GlyphRect:
+      m_X: 5
+      m_Y: 1
+      m_Width: 8
+      m_Height: 1
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 735
+    m_Metrics:
+      m_Width: 10.125
+      m_Height: 1.453125
+      m_HorizontalBearingX: 1.4375
+      m_HorizontalBearingY: 5.671875
+      m_HorizontalAdvance: 13
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 13
+      m_Width: 11
+      m_Height: 2
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 59047
+    m_Metrics:
+      m_Width: 1.3125
+      m_Height: 9.75
+      m_HorizontalBearingX: 5.84375
+      m_HorizontalBearingY: 9.71875
+      m_HorizontalAdvance: 13
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 1
+      m_Width: 3
+      m_Height: 11
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 45
+    m_GlyphIndex: 14
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 64
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 173
+    m_GlyphIndex: 14
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 8209
+    m_GlyphIndex: 14
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 8230
+    m_GlyphIndex: 735
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 65281
+    m_GlyphIndex: 59047
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: 3506567683913472699}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 4
+    m_Height: 12
+  - m_X: 0
+    m_Y: 12
+    m_Width: 12
+    m_Height: 3
+  - m_X: 4
+    m_Y: 0
+    m_Width: 9
+    m_Height: 2
+  - m_X: 4
+    m_Y: 2
+    m_Width: 5
+    m_Height: 2
+  m_FreeGlyphRects:
+  - m_X: 12
+    m_Y: 2
+    m_Width: 3
+    m_Height: 13
+  - m_X: 13
+    m_Y: 0
+    m_Width: 2
+    m_Height: 15
+  - m_X: 4
+    m_Y: 4
+    m_Width: 11
+    m_Height: 8
+  - m_X: 9
+    m_Y: 2
+    m_Width: 6
+    m_Height: 10
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 16
+  m_AtlasHeight: 16
+  m_AtlasPadding: 0
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable:
+  - {fileID: 11400000, guid: 52d22b7676d66274bbda14ccd4399662, type: 2}
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 29a74af0f98e29145baace3e7ac0f206
+    pointSizeSamplingMode: 0
+    pointSize: 13
+    padding: 0
+    packingMode: 0
+    atlasWidth: 16
+    atlasHeight: 16
+    characterSetSelectionMode: 6
+    characterSequence: 2D,5F,AD,2011,2026,FF01
+    referencedFontAssetGUID: e11825d41dadca84081566fb8581a491
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+--- !u!28 &3506567683913472699
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pretia-Regular SDF Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 16
+  m_Height: 16
+  m_CompleteImageSize: 256
+  m_MipsStripped: 0
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 256
+  _typelessdata: 0000000000000000000000000000000000003700007e8b8b8b8b8b8b320000000048b64800000000000000000000000000005f0000679191800000000000000000000c00000000000000000000000000000c8c0c000000000000000000000000001797170000000000000000000000000021a121000000000000000000000000002cab2c0000000000000000000000000036b636000000000000000000000000003fbf3f000000000000000000000000001c9b1c00000000000000000000000000000000000000000000000000000000006a8506004a974a0007856a0000000000627a000044884300007a620000000000000000000000000000000000000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &6852387969424710296
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pretia-Regular Atlas Material
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 3506567683913472699}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 1
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0
+    - _ScaleRatioB: 0
+    - _ScaleRatioC: 0
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 16
+    - _TextureWidth: 16
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []

@@ -1,0 +1,23 @@
+{
+    "name": "Pretia.RelocChecker.Plateau.Bridging",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f611b55791fe6e49aafec04e8adcb97",
+        "GUID:33a64a05e6961c84c910a8057df1e46a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.synesthesias.plateau-unity-sdk",
+            "expression": "2.2.0-alpha",
+            "define": "PLATEAU_SDK_2_2_0_ALPHA"
+        }
+    ],
+    "noEngineReferences": false
+}
