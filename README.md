@@ -123,12 +123,10 @@
 ## 7.  本リポジトリのフォルダ構成
 | フォルダ名 |　詳細 |
 |-|-|
-| AggregateData | パネル設置適地判定のデータ管理 |
-| AnalyzeData | 解析・シミュレーションのデータ管理 |
-| Analyzer | 解析・シミュレーションの処理 |
-| CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
-| JudgeSuitablePlace | パネル設置適地判定の処理 |
-| SolarPotential | GUI |
+| Assets | Unity用のAssetsフォルダ（Scenes, Prefabsなど ） |
+| Packages | Unity用のPackageフォルダ  |
+| ProjectSettings | Unity用のProjectSettingsフォルダ（Unityの[Edit] > [Project Settings]で編集された情報を保存したフォルダ）|
+| Docs/Images | Readme用の画像など |
 
 
 ## 8.  ライセンス
