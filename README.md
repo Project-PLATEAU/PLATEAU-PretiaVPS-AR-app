@@ -1,26 +1,22 @@
 # PLATEAU-PretiaVPS-AR-app
 
-## システム要件
+##1. 概要
+本リポジトリでは、Project PLATEAUの令和5年度のユースケース開発業務の一部であるUC23-018「3D都市モデルに最適化したVPSの開発等」について、その成果物である「スマートフォン向けARアプリケーション」のソースコードを公開しています。
 
-### 開発環境
+「3D都市モデルに最適化したVPS」はPLATEAUの3D都市モデルから生成した点群マップと、スマートフォンで撮影したカメラ画像から生成した点群マップとを比較し、自己位置を推定するシステムです。
 
-* **Unity Version**: Unity 2021.3.27f1 LTS
-* **AR Framework**:
-  * AR Foundation 4.2.8
-  * ARKit XR Plugin 4.2.9
-  * Pretia SDK 0.11.0
-* **Supported Unity Editor Platforms**: iOS
+##2. 「3D都市モデルに最適化したVPSの開発等」について
+「3D都市モデルに最適化したVPSの開発等」では、PLATEAUの3D都市モデルから生成した点群マップと、スマートフォンで撮影したカメラ画像から生成した点群マップとを比較し、自己位置を推定するシステムを開発しました。
 
-### iOS Device Requirements
+本システムは、PLATEAUの3D都市モデル（LOD3）が整備された沼津の特定エリア(１０箇所)において、アプリケーションで撮影したカメラ画像から生成した点群マップと3D都市モデルから生成した点群マップとを比較し、自己位置を推定する機能に加え、周辺の建物に関連するアイコン(3Dコンテンツ)をAR表示する機能、PLATEAUの3D都市モデルをAR表示する機能（透過度調整可）を実装しています。
+本システムは、プレティア・テクノロジーズ株式会社が保有するAR開発プラットフォームPretiaをもとに、簡易的な自己位置推定の精度評価用スマートフォン向けARアプリケーションと合わせて開発されています。
 
-* **Minimum iOS Version**: iOS 12
-* **Supported Devices**: iPhone X or newer
+本システムの詳細については
+[技術検証レポート](xxxx)を参照してください。
 
-### Software Requirements
 
-* **Xcode Version**: Xcode 15.0.1
-
-## 設定
+##3. 利用手順
+### 設定
 
 * プロジェクト設定の更新
   * Unityで、File > Build Settingsを選択してください。
@@ -42,9 +38,9 @@
   * iOSデバイスをUSB経由でMacに接続します。
   * Build and Runボタンをクリックします。Xcodeがデバイスにアプリをインストールします。
 
-## アプリの使用方法
+### アプリの使用方法
 
-### マップの選択
+#### マップの選択
 
 ![MapSelection.png](Docs/Images/MapSelection.png)
 
@@ -57,7 +53,7 @@
 - Custom Map Key: 開発者向けにカスタマイズされたロケーションを利用する場合のオプションです。
 
 
-### スキャン
+#### スキャン
 
 ![ScanningFlow.png](Docs/Images/ScanningFlow.png)
 
@@ -76,13 +72,50 @@
 - スキャンの完了 (Reloc) プロセス: スキャン（Reloc）が完了すると、拡張現実（AR）コンテンツが表示される。
 
 
-### その他機能
+#### その他機能
 
 * **オクルージョン**: "オクルージョン"機能によって、ARコンテンツは現実世界と同じように、ビルの後ろや中にあるように見えるリアルな効果を生み出します。
 * **コンテンツ位置情報の表示** : この機能は、Plateau SDKから算出したARコンテンツの位置を表示します。ARコンテンツがグローバル座標のどこに配置されているかを表示します。
 * **デバイス位置情報の表示** : 画面下部に、あなたのデバイスの座標を2種類表示します：
   * **GPS座標**: GPSで取得したデバイスの位置情報を表示します。
   * **相対座標**: VPSで取得した相対座標とPlateau SDKからデバイスのグローバル座標を算出し表示します。
+
+
+##4. システム概要
+
+##5. 利用技術
+
+##6. 動作環境
+
+##7. 本リポジトリのフォルダ構成
+
+##8. ライセンス
+
+##9. 注意事項
+
+##10. 参考資料
+
+## システム要件
+
+### 開発環境
+
+* **Unity Version**: Unity 2021.3.27f1 LTS
+* **AR Framework**:
+  * AR Foundation 4.2.8
+  * ARKit XR Plugin 4.2.9
+  * Pretia SDK 0.11.0
+* **Supported Unity Editor Platforms**: iOS
+
+### iOS Device Requirements
+
+* **Minimum iOS Version**: iOS 12
+* **Supported Devices**: iPhone X or newer
+
+### Software Requirements
+
+* **Xcode Version**: Xcode 15.0.1
+
+
 
 ## License
 
