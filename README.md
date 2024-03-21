@@ -58,9 +58,12 @@
 
 
 ## 8.  ライセンス
-**PLATEAU-PretiaVPS-AR-app** is available under the Copyright (C) 2024 Pretia Technologies,inc. See the [LICENSE](LICENSE) file for more info.
 
-本システムでは、下記CC0による3Dコンテンツを利用しております。
+- ソースコードの著作権はプレティア・テクノロジズに帰属、ドキュメントの著作権は国土交通省に帰属します。
+- 本ドキュメントは[Project PLATEAUのサイトポリシー](https://www.mlit.go.jp/plateau/site-policy/)（CCBY4.0及び政府標準利用規約2.0）に従い提供されています。
+- ソースコードのライセンス詳細は[LICENSE](LICENSE) に従い提供されています。
+
+また、本システムでは、下記CC0による3Dコンテンツを利用しております。
 
 - [Cake!!](https://alpha.womp.com/preview/387526) by [Movieinyou](https://alpha.womp.com/profile/f7394afc-6e94-40d4-8bc5-d9014f997e42)
 - [Shrimp ramen](https://alpha.womp.com/preview/448890) by [Oleksandra](https://alpha.womp.com/profile/d4b238ac-388e-40ad-88de-05f86d7639f5)
@@ -79,8 +82,6 @@
 - [CanScene attempt](https://alpha.womp.com/preview/35462) by [Eduardo Gutierréz](https://alpha.womp.com/profile/5c07458f-59aa-4db4-a380-208f27d5df38)
 - [Oligastiri](https://alpha.womp.com/preview/46326) by [ssen](https://alpha.womp.com/profile/9cc1fa4b-c647-484e-b74f-ad6709c97429)
 - [Bottle 02 v2](https://alpha.womp.com/preview/423803) by [Maxwell Willman](https://alpha.womp.com/profile/d679d2fe-af3f-475b-b0b8-15547e0b0209)
-
-
 
 ## 9.  注意事項
 
