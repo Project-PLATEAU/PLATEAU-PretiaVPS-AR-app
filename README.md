@@ -15,62 +15,7 @@
 
 
 ## 3. 利用手順
-### Unityの設定
-
-* プロジェクト設定の更新
-  * Unityで、File > Build Settingsを選択してください。
-  * プラットフォームとしてiOSを選択します。まだインストールされていない場合は、Add Moduleをクリックし、指示に従ってiOSサポートをインストールしてください。
-  * Player Settingsをクリックし、Settings for iOSタブで設定をカスタマイズします：
-    * Identification（通常、com.yourcompany.yourappのような逆ドメイン名形式）でBundle Identifierを設定します。
-    * Build Settingsウィンドウを閉じます。
-
-### ビルド
-
-* Xcode Projectの作成
-  * Unity Editorに戻り、Build SettingsウィンドウでBuild And Runをクリックします。Unityがプロジェクトをコンパイルし、Xcodeプロジェクトを作成します。
-  * Xcodeプロジェクトを保存する場所を選択し、[Save]をクリックします。
-  * ビルドが完了すると、UnityはXcodeプロジェクトを開きます。開かない場合は、保存した場所に移動し、.xcodeprojファイルを開いてください。
-* iOS用のビルド
-  * XcodeのProject Navigatorでプロジェクトを選択します。正しいターゲットが選択されていることを確認してください。
-  * Apple Developerアカウントでサインインします。Xcode > Preferences > Accounts に進み、アカウントを追加します。
-  * Signing & Capabilitiesで正しいチームを選択します。
-  * iOSデバイスをUSB経由でMacに接続します。
-  * Build and Runボタンをクリックします。Xcodeがデバイスにアプリをインストールします。
-
-### アプリの使用方法
-
-#### マップの選択
-
-![MapSelection.png](Docs/Images/MapSelection.png)
-
-スキャンを開始するには、まず、メインメニューのドロップダウンメニューから以下のオプションのいずれかを選択してください:
-
-- Criteria-based Location: このオプションは、GPSを利用して現在地から最も近い地図を自動的に検出します。
-
-- Checkpoint Selection: ここでは、1 から 10 までの番号の、あらかじめ組み込まれたオプションのリストから選択できます。地図同士が近すぎる場合など、GPS精度の問題でCriteria-based Locationによるマップの自動選択ができない場合に、この機能を使用して手動で地図を選択します。
-
-- Custom Map Key: 開発者向けにカスタマイズされたロケーションを利用する場合のオプションです。
-
-
-#### スキャン
-
-![ScanningFlow.png](Docs/Images/ScanningFlow.png)
-
-スキャンを開始するには、次の手順に従ってください:
-
-- チェックポイントへ移動: 本プロジェクトで指定する沼津市のチェックポイントへ移動してください。
-
-- カメラビューの起動: アプリで「スキャン開始」ボタンをタップし、カメラビューを起動してください。
-
-- カメラを対象の建物に向け静止する: 端末のカメラをチェックポイントの指定された建物に向けて静止してください。
-
-- スキャンの開始: 画面上の丸い赤いボタンを押してスキャンを開始します。
-
-- スキャンの実行: 正確なスキャンのために、建物をカメラのフレーム内に収めることを確認しながら、静止します。数秒経っても画面が遷移しない場合左から右へ、ゆっくりと携帯電話を水平に動かし、再度静止します。
-
-- スキャンの完了 (Reloc) プロセス: スキャン（Reloc）が完了すると、拡張現実（AR）コンテンツが表示される。
-
-
+本システムの構築手順及び利用手順については[利用チュートリアル](https://project-plateau.github.io/PLATEAU-PretiaVPS-AR-app/)を参照してください。
 
 ## 4.  システム概要
 * **ARコンテンツの表示**: 
@@ -84,49 +29,32 @@
 
 
 ## 5.  利用技術
-* **SfM　（Structure from motion）**: 
-  * 複数枚の画像から対象の形状を復元する技術。画像内の特徴点をもとにVPS用の点群を出力する。3D都市モデルからの点群出力アルゴリズムの要素技術として利用する。
- 
-* **点群to点群対応化アルゴリズム**:
-  * 異なる２つの点群データ（①現実世界から変換した点群データと②3D都市モデルから変換した点群データ）をもとに座標情報等を整理し双方の対応関係を導出し、同一の処理で扱える点群へ変換するアルゴリズム
-  * Pretiaが既存でもつアルゴリズムをベースに公知の論文情報等を参照しながらモデル及びパラメータを調整し、Pretiaの点群出力アルゴリズムで抽出した①及び②の点群の対応に最適化する。
-
-* **自己位置推定アルゴリズム（PLATEAU-to-Pretia VPS）**:
-  * 実世界から出力した点群と、スマートフォン向けARアプリケーションから送られたカメラ映像から出力された点群をマッチングし、自己位置情報（x1, y1, z1）を返す処理をおこなう。本プロジェクトでは、Pretiaが所有するアルゴリズムをそのまま適用する。
- 
-* **座標変換アルゴリズム**:
-  * PLATEAU-to-Pretia VPSにて出力した自己位置情報（x1, y1, z1）を点群to点群対応化アルゴリズムで出力したメタデータ（座標変換マトリクス）で3D都市モデルに最適化した自己位置情報（x2, y2, z2）へ変換する処理。本プロジェクトでは、Pretiaが所有するアルゴリズムをベースに一部調整を行う。
+|名称 |概要 |
+|-|-|
+| SfM　（Structure from motion） | 複数枚の画像から対象の形状を復元する技術。画像内の特徴点をもとにVPS用の点群を出力する。3D都市モデルからの点群出力アルゴリズムの要素技術として利用する。 |
+| 点群to点群対応化アルゴリズム | 異なる２つの点群データ（①現実世界から変換した点群データと②3D都市モデルから変換した点群データ）をもとに座標情報等を整理し双方の対応関係を導出し、同一の処理で扱える点群へ変換するアルゴリズム <br> Pretiaが既存でもつアルゴリズムをベースに公知の論文情報等を参照しながらモデル及びパラメータを調整し、Pretiaの点群出力アルゴリズムで抽出した①及び②の点群の対応に最適化する。 |
+| 自己位置推定アルゴリズム（PLATEAU-to-Pretia VPS） | 実世界から出力した点群と、スマートフォン向けARアプリケーションから送られたカメラ映像から出力された点群をマッチングし、自己位置情報（x1, y1, z1）を返す処理をおこなう。本プロジェクトでは、Pretiaが所有するアルゴリズムをそのまま適用する。 |
+| 座標変換アルゴリズム | PLATEAU-to-Pretia VPSにて出力した自己位置情報（x1, y1, z1）を点群to点群対応化アルゴリズムで出力したメタデータ（座標変換マトリクス）で3D都市モデルに最適化した自己位置情報（x2, y2, z2）へ変換する処理。本プロジェクトでは、Pretiaが所有するアルゴリズムをベースに一部調整を行う。 |
 
 
 ## 6.  動作環境
 
-### 開発環境
-
-* **Unity Version**: Unity 2021.3.27f1 LTS
-* **AR Framework**:
-  * AR Foundation 4.2.8
-  * ARKit XR Plugin 4.2.9
-  * Pretia SDK 0.11.0
-* **Supported Unity Editor Platforms**: iOS
-
-### iOS Device Requirements
-
-* **Minimum iOS Version**: iOS 12
-* **Supported Devices**: iPhone X or newer
-
-### Software Requirements
-
-* **Xcode Version**: Xcode 15.0.1
-
+| 項目 | 推奨動作環境 | 
+| - | - |
+| Unityのバージョン | Unity 2021.3.27f1 LTS | 
+| ARフレームワーク | AR Foundation 4.2.8 <br> ARKit XR Plugin 4.2.9 <br> Pretia SDK 0.11.0 | 
+| Unityエディタ対応OS | iOS　(Minimum iOS Version: iOS 12) | 
+| デバイス | iPhone X　以降 | 
+| Xcodeのバージョン |　Xcode 15.0.1 | 
 
 
 ## 7.  本リポジトリのフォルダ構成
 | フォルダ名 |　詳細 |
 |-|-|
-| Assets | Unity用のAssetsフォルダ（Scenes, Prefabsなど ） |
-| Packages | Unity用のPackageフォルダ  |
-| ProjectSettings | Unity用のProjectSettingsフォルダ（Unityの[Edit] > [Project Settings]で編集された情報を保存したフォルダ）|
-| Docs/Images | Readme用の画像など |
+| Assets | Scenes, PrefabsなどUnity用のAssetsデータを管理 |
+| Packages | Unity用のPackageを管理 |
+| ProjectSettings | Unity用のProjectSettingsデータを管理（Unityの[Edit] > [Project Settings]で編集された情報）|
+| Docs/Images | Readme用の画像などを管理 |
 
 
 ## 8.  ライセンス
