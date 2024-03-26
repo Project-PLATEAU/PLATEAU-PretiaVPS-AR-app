@@ -1,4 +1,4 @@
-# PLATEAU-PretiaVPS-AR-app
+# PLATEAU PretiaVPS ARアプリ
 
 ## 1. 概要
 本リポジトリでは、Project PLATEAUの令和5年度のユースケース開発業務の一部であるUC23-018「3D都市モデルに最適化したVPSの開発等」について、その成果物である「スマートフォン向けARアプリケーション」のソースコードを公開しています。
