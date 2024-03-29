@@ -11,7 +11,7 @@
 本システムは、プレティア・テクノロジーズ株式会社が保有するAR開発プラットフォームPretiaをもとに、簡易的な自己位置推定の精度評価用スマートフォン向けARアプリケーションと合わせて開発されています。
 
 本システムの詳細については
-[技術検証レポート](xxxx)を参照してください。
+[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0088_ver01.pdf)を参照してください。
 
 
 ## 3. 利用手順
@@ -103,6 +103,6 @@
 
 ## 10.  参考資料
 
-- 技術検証レポート: xxx
-- PLATEAU WebサイトのUse caseページ「3D都市モデルに最適化したVPSの開発等」: xxx
+- 技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0088_ver01.pdf
+- PLATEAU WebサイトのUse caseページ「3D都市モデルに最適化したVPSの開発等」: https://www.mlit.go.jp/plateau/use-case/uc23-18/
 
